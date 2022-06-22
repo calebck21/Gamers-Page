@@ -22,4 +22,12 @@ body {
 
 /* ------------FONT FAMILIES------------*/
 
-/* ------------MAIN MENU CONTAINERS----------*/
+/* ------------MAIN BAR CONTAINERS----------*/
+
+.menu-container {}
+
+.menu-links {}
+
+.menu-links a {}
+
+.menu-links a:hover {}
