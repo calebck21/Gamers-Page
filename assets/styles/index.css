@@ -31,6 +31,10 @@ body {
     margin-right: 20px;
     margin-left: auto;
     height: 60px;
+    background-color: #23272a;
+    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 /*----------LINK BUTTONS CSS----------*/
@@ -43,6 +47,8 @@ body {
     padding: 20px 30px;
     text-decoration: none;
     transition: 800ms;
+    position: relative;
+    top: 14px;
 }
 
 .menu-links a:hover {
