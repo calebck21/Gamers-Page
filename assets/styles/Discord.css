@@ -5,6 +5,10 @@ body {
 .menu-container {
     width: fit-content;
     height: fit-content;
+    background-color: #7289da;
+    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     margin-top: 30px;
     margin-right: 20px;
     margin-left: auto;
@@ -14,17 +18,19 @@ body {
 /*----------LINK BUTTONS CSS----------*/
 
 .menu-links a {
-    color: red;
+    position: relative;
+    top: 18px;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 700;
     font-family: poppins-font;
-    padding: 20px 30px;
+    padding: 10px 30px;
     text-decoration: none;
     transition: 800ms;
 }
 
 .menu-links a:hover {
-    color: rgb(196, 63, 196);
+    color: #23272a;
     transition: 400ms;
     font-size: 25px;
 }
