@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: #424242;
+}
+
+/* ------------FONT FAMILIES------------*/
+
+@font-face {
+    font-family: Quantom-Font;
+    src: url(../font/quantum/Quantum.otf);
+}
+
+@font-face {
+    font-family: Merriweather-Font;
+    src: url(../font/Merriweather/Merriweather-Black.ttf);
+}
+
+@font-face {
+    font-family: poppins-font;
+    src: url(../font/Poppins/Poppins-Black.ttf);
+}
+
+/* ------------FONT FAMILIES------------*/
+
+/* ------------MAIN MENU CONTAINERS----------*/
