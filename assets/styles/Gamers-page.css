@@ -7,27 +7,40 @@ body {
 
 @font-face {
     font-family: Quantom-Font;
-    src: url(../font/quantum/Quantum.otf);
+    src: url();
 }
 
 @font-face {
     font-family: Merriweather-Font;
-    src: url(../font/Merriweather/Merriweather-Black.ttf);
+    src: url();
 }
 
 @font-face {
     font-family: poppins-font;
-    src: url(../font/Poppins/Poppins-Black.ttf);
+    src: url();
 }
 
 /* ------------FONT FAMILIES------------*/
 
 /* ------------MAIN BAR CONTAINERS----------*/
 
-.menu-container {}
+.menu-container {
+    width: fit-content;
+    height: fit-content;
+    height: 60px;
+    margin-left: auto;
+}
+/*----------LINK BUTTONS CSS----------*/
 
-.menu-links {}
+.menu-links a {
+    color: red;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: poppins-font;
+    padding: 20px 30px;
+    text-decoration: none;
+}
 
-.menu-links a {}
-
-.menu-links a:hover {}
+.menu-links a:hover {
+    color: rgb(196, 63, 196);
+}
