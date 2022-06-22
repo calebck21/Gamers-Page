@@ -27,20 +27,31 @@ body {
 .menu-container {
     width: fit-content;
     height: fit-content;
-    height: 60px;
+    margin-top: 30px;
+    margin-right: 20px;
     margin-left: auto;
+    height: 60px;
 }
+
 /*----------LINK BUTTONS CSS----------*/
 
 .menu-links a {
     color: red;
-    font-size: 25px;
-    font-weight: 800;
+    font-size: 20px;
+    font-weight: 700;
     font-family: poppins-font;
     padding: 20px 30px;
     text-decoration: none;
+    transition: 800ms;
 }
 
 .menu-links a:hover {
     color: rgb(196, 63, 196);
+    transition: 400ms;
+    font-size: 25px;
+}
+
+.menu-links a:active {
+    color: yellow;
+    transition: 400ms;
 }
